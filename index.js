@@ -14,4 +14,5 @@ mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true, useUnifiedTopolo
 
 app.use('/auth', authRoute)
 
+
 app.listen(PORT, ()=>{console.log(`Server listening at ${PORT}`)})
